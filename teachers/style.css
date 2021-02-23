@@ -1,0 +1,53 @@
+.teacher {
+    display: inline-block;
+    width: 240px;
+
+}
+
+.teacher img{
+    height: 300px;
+    border:1px solid;
+}
+
+p {
+    font-family: 'Amatic SC', cursive;
+}
+
+.teacher img:hover{
+    box-shadow: 10px 5px 5px red;
+    cursor: pointer;   
+}
+
+.pc1::after {
+	content: "зав.каф., професор, д.е.н."
+}
+
+.pc2::after {
+	content: "професор, д.ф.-м.н."
+}
+
+.pc3::after {
+	content: "професор, д.е.н."
+}
+
+.pc4::after {
+	content: "доцент, к.е.н."
+}
+
+.wrapper {
+	width: 250px;
+	margin: 0 auto;
+}
+
+@media (min-width: 960px) {
+	.wrapper {
+		width: 500px
+	}
+}
+
+@media (min-width: 1200px) {
+	.wrapper {
+		width: 1000px;
+		margin: 0 auto;
+	}
+}
