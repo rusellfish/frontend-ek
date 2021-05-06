@@ -1,0 +1,13 @@
+.wrapper{
+    margin:0 auto;
+    width:600px;
+    display: flex;
+    flex-direction: column;
+}
+
+*{
+    font-size: 20px;
+}
+body {
+background: #40E0D0;
+}
